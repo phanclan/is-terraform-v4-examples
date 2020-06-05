@@ -32,7 +32,7 @@ tfe_initial_org_email      = "pphan@hashicorp.com"
 # tfe_admin_password = "super-secure" # Randomly generated for console
 
 # enc_password              = "super-secure"
-extra_no_proxy            = ""
+# extra_no_proxy            = ""
 # pg_dbname                 = "tfe"
 # pg_extra_params           = ""
 # pg_password               = "super-secure" # Randomly generated
@@ -40,7 +40,6 @@ extra_no_proxy            = ""
 # operational_mode          = "online" # online or airgapped - IS is online only
 # airgap_bundle             = "tfe-384.airgap"
 # replicated_bootstrapper   = "replicated.tar.gz"
-# create_first_user_and_org = "true"
 
 #------------------------------------------------------------------------------
 # NETWORK - data needs to be refreshed everytime - from Stage 1 outputs
@@ -77,7 +76,7 @@ os_distro = "ubuntu" #amzn2
 # Use m5.large, m5.xlarge or m5.2xlarge for production
 instance_size = "c5.xlarge"
 
-public_ip = "true"
+# public_ip = "true" #Roger
 
 #------------------------------------------------------------------------------
 # DATABASE
