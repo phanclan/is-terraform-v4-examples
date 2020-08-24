@@ -17,3 +17,7 @@ terraform.tfvars
 
 # PTFE license files
 *.rli
+
+# Misc
+.DS_Store
+custom.tf
